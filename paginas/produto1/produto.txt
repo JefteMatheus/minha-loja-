@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chuteira Nike Beco 2 Futsal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Detalhes do Produto</h1>
+    </header>
+
+    <main class="produto-detalhes-container">
+        <div class="produto-imagem">
+            <img src="imagens/produto1.avif" alt="Chuteira Nike Beco 2 Futsal">
+        </div>
+
+        <div class="produto-info">
+            <h2>Chuteira Nike Beco 2 Futsal</h2>
+            <p class="preco">R$ 398,98</p>
+            <p class="descricao">
+                A Chuteira Nike Beco 2 Futsal é perfeita para jogadores que buscam conforto e performance nas quadras. 
+                Com um design moderno e material de alta qualidade, ela garante ótima aderência e durabilidade.
+            </p>
+
+            <div class="avaliacao">
+                <span class="estrela">&#9733;</span>
+                <span class="estrela">&#9733;</span>
+                <span class="estrela">&#9733;</span>
+                <span class="estrela">&#9733;</span>
+                <span class="estrela">&#9734;</span>
+            </div>
+
+            <button class="comprar-botao">Adicionar ao Carrinho</button>
+            <a href="index.html" class="voltar">Voltar para a Lista de Produtos</a>
+        </div>
+    </main>
+</body>
+
+</html>

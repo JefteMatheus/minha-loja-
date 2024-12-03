@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chuteira Nike Mercurial Superfly 10 Club KM Infantil Society</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Detalhes do Produto</h1>
+    </header>
+
+    <main class="produto-detalhes-container">
+        <div class="produto-imagem">
+            <img src="imagens/produto3.avif" alt="Chuteira Nike Mercurial Superfly 10 Club KM Infantil Society">
+        </div>
+
+        <div class="produto-info">
+            <h2>Chuteira Nike Mercurial Superfly 10 Club KM Infantil Society</h2>
+            <p class="preco">R$ 379,99</p>
+            <p class="descricao">
+                A Chuteira Nike Mercurial Superfly 10 Club KM Infantil Society oferece velocidade e controle 
+                excepcionais. Inspirada por atletas de elite, é a escolha perfeita para jogadores ambiciosos.
+            </p>
+
+            <div class="avaliacao">
+                <span class="estrela">&#9733;</span>
+                <span class="estrela">&#9733;</span>
+                <span class="estrela">&#9733;</span>
+                <span class="estrela">&#9733;</span>
+                <span class="estrela">&#9733;</span>
+            </div>
+
+            <button class="comprar-botao">Adicionar ao Carrinho</button>
+            <a href="index.html" class="voltar">Voltar para a Lista de Produtos</a>
+        </div>
+    </main>
+</body>
+
+</html>

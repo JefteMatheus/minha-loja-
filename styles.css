@@ -1,0 +1,125 @@
+/* Estilo geral */
+body {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.produtos-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Espaço entre os produtos */
+    width: 100%; /* Ajusta a largura do container */
+    max-width: 1200px; /* Largura máxima do container */
+    flex-wrap: wrap; /* Permite que os produtos quebrem para a linha de baixo */
+}
+
+.produtos {
+    background-color: white;
+    width: 30%; /* Cada produto ocupa 30% da largura do container */
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 90px;
+    box-sizing: border-box;
+}
+
+.produto {
+    width: 100%; /* Faz com que a imagem ocupe toda a largura do produto */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+button {
+    padding: 14px;
+    border-radius: 25px;
+    width: 100%;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo das estrelas de avaliação */
+.avaliacao {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.estrela {
+    font-size: 20px;
+    color: gold;
+    margin: 0 2px;
+}
+
+.comprar-botao {
+    padding: 14px;
+    border-radius: 25px;
+    width: 100%;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.comprar-botao:hover {
+    background-color: #45a049;
+}
+
+
+/* Media Queries para dispositivos menores */
+@media (max-width: 1024px) {
+    .produtos {
+        width: 45%; /* Para telas menores, cada produto ocupa 45% da largura */
+    }
+}
+
+@media (max-width: 768px) {
+    .produtos {
+        width: 100%; /* Para telas ainda menores, cada produto ocupa toda a largura */
+        margin-top: 20px; /* Ajusta o espaçamento entre os produtos */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px; /* Ajusta o padding para telas muito pequenas */
+    }
+    .produtos-container {
+        flex-direction: column; /* Empilha os produtos verticalmente */
+        align-items: center;
+    }
+    .produtos {
+        width: 90%; /* Ajusta o tamanho do produto para telas muito pequenas */
+    }
+}
+
